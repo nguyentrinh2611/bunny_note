@@ -1,0 +1,8 @@
+{
+  "@@locale": "en",
+  "hello": "Hello",
+  "onboardingTitle": "Welcome to\nSelf Control",
+  "onboardingContent1": "We're excited to have you on board. Our app is designed to simplify your life and boost your productivity.",
+  "onboardingContent2": "With an intuitive interface, you can effortlessly create and manage your tasks. Stay organized by categorizing them, and prioritizing them.",
+  "appLanguage": "Language"
+}

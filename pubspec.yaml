@@ -1,0 +1,96 @@
+name: s_c
+
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # For architechture
+  flutter_bloc: ^8.1.3
+  bloc_test: ^9.1.3
+
+  # For objecting
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  get_it: ^7.6.0
+
+  # For networking
+  dio: ^5.2.1+1
+  internet_connection_checker: ^0.0.1+2
+
+  # For caching
+  shared_preferences: ^2.0.8
+
+  # For multiple languages
+  intl_utils: ^2.7.0
+  intl: ^0.19.0 # Contains code to deal with internationalized/localized messages, date and number formatting and parsing, bi-directional text, and other internationalization issues.
+  multiple_localization: ^0.5.0 # Support for multiple abr and messages localization files for intl package.
+  flutter_localizations:
+    sdk: flutter
+
+  # For UI
+  animated_toggle_switch: ^0.7.0
+  logger: ^1.4.0
+  flutter_svg: ^1.1.6
+  flutter_easyloading: ^3.0.5
+
+  # Firebase Services
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.7.1
+  firebase_database: ^10.1.0
+  # firebase_storage: ^11.2.5
+  uuid: ^3.0.7
+  badges: ^3.1.1
+
+  image_picker: ^1.0.1
+  image: ^4.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  mockito: ^5.0.16
+  build_runner: ^2.1.2
+  http_mock_adapter: ^0.4.4
+  pretty_dio_logger: ^1.3.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/icons/ui_kit/
+    - assets/icons/ui_kit/bold/
+    - assets/icons/ui_kit/normal/
+    - assets/images/
+flutter_intl:
+  enabled: true # Required. Must be set to true to activate the package. Default: false
+  class_name: S # Optional. Sets the name for the generated localization class. Default: S
+  main_locale: en # Optional. Sets the main locale used for generating localization files. Provided value should consist of language code and optional script and country codes separated with underscore (e.g. 'en', 'en_GB', 'zh_Hans', 'zh_Hans_CN'). Default: en
+  arb_dir: lib/core/localization/l10n # Optional. Sets the directory of your ARB resource files. Provided value should be a valid path on your system. Default: lib/l10n
+  output_dir: lib/core/localization/generated # Optional. Sets the directory of generated localization files. Provided value should be a valid path on your system. Default: lib/generated
+  use_deferred_loading: false # Optional. Must be set to true to generate localization code that is loaded with deferred loading. Default: false
+  localizely: # Optional settings if you use Localizely platform. Read more: https://localizely.com/blog/flutter-localization-step-by-step/?tab=automated-using-flutter-intl
+    project_id: # Get it from the https://app.localizely.com/projects page.
+    branch: # Get it from the “Branches” page on the Localizely platform, in case branching is enabled and you want to use a non-main branch.
+    upload_overwrite: # Set to true if you want to overwrite translations with upload. Default: false
+    upload_as_reviewed: # Set to true if you want to mark uploaded translations as reviewed. Default: false
+    upload_tag_added: # Optional list of tags to add to new translations with upload (e.g. ['new', 'New translation']). Default: []
+    upload_tag_updated: # Optional list of tags to add to updated translations with upload (e.g. ['updated', 'Updated translation']). Default: []
+    upload_tag_removed: # Optional list of tags to add to removed translations with upload (e.g. ['removed', 'Removed translation']). Default: []
+    download_empty_as: # Set to empty|main|skip, to configure how empty translations should be exported from the Localizely platform. Default: empty
+    download_include_tags: # Optional list of tags to be downloaded (e.g. ['include', 'Include key']). If not set, all string keys will be considered for download. Default: []
+    download_exclude_tags: # Optional list of tags to be excluded from download (e.g. ['exclude', 'Exclude key']). If not set, all string keys will be considered for download. Default: []
+    ota_enabled: # Set to true if you want to use Localizely Over-the-air functionality. Default: false
