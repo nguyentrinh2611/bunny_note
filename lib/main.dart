@@ -11,15 +11,15 @@ import 'firebase_options.dart';
 import 'injection_container.dart' as di;
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  final FirebaseApp app = await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform, name: "S_C");
-
-  await di.init(
-    firebaseApp: app,
-  );
   await runZonedGuarded(
     () async {
+      WidgetsFlutterBinding.ensureInitialized();
+      final FirebaseApp app = await Firebase.initializeApp(
+          options: DefaultFirebaseOptions.currentPlatform, name: "S_C");
+
+      await di.init(
+        firebaseApp: app,
+      );
       Bloc.observer = AppBlocObserver();
       runApp(const MyApp());
     },

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:s_c/features/login/domain/entities/login_page_arg.dart';
+import 'package:s_c/features/login/presentation/pages/login_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../core/enum/app_constants.dart';
@@ -27,9 +29,10 @@ class _OnboardingPageState extends State<OnboardingPage> {
         pageController.animateToPage(currentStep,
             duration: const Duration(milliseconds: 500), curve: Curves.easeIn);
       } else {
-        // saveOnboardingKey();
-        // Navigator.of(context)
-        //     .pushNamedAndRemoveUntil(LoginPage.routeName, (route) => false);
+        saveOnboardingKey();
+        Navigator.pushNamedAndRemoveUntil(
+            context, LoginPage.routeName, (route) => false,
+            arguments: LoginPageArg(username: "", password: ""));
       }
     });
   }

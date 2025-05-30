@@ -66,11 +66,11 @@ class _LoginPageState extends State<LoginPage> {
     context.read<LoginCubit>().toggleRememberAccount();
   }
 
-  Color getColor(Set<MaterialState> states) {
-    const Set<MaterialState> interactiveStates = <MaterialState>{
-      MaterialState.pressed,
-      MaterialState.hovered,
-      MaterialState.focused,
+  Color getColor(Set<WidgetState> states) {
+    const Set<WidgetState> interactiveStates = <WidgetState>{
+      WidgetState.pressed,
+      WidgetState.hovered,
+      WidgetState.focused,
     };
     if (states.any(interactiveStates.contains)) {
       return Colors.blue;
@@ -209,7 +209,7 @@ class _LoginPageState extends State<LoginPage> {
                               return Checkbox(
                                 checkColor: Colors.white,
                                 fillColor:
-                                    MaterialStateProperty.resolveWith(getColor),
+                                    WidgetStateProperty.resolveWith(getColor),
                                 value: state.isRememberAccount,
                                 onChanged: toggleRememberAccount,
                               );

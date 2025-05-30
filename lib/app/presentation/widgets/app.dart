@@ -52,7 +52,6 @@ class MyApp extends StatelessWidget {
                 state.appLanguage ?? appSupportedLanguages.first;
 
             return MaterialApp(
-              useInheritedMediaQuery: true,
               debugShowCheckedModeBanner: false,
               // theme: appThemes[state],
               localizationsDelegates: const [

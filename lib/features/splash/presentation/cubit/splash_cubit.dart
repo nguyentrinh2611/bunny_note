@@ -24,8 +24,8 @@ class SplashCubit extends Cubit<SplashState> {
       return;
     }, (r) {
       if (r) {
-        checkIsRememberedLogin();
-        // emit(SplashFirstLaunch());
+        // checkIsRememberedLogin();
+        emit(SplashFirstLaunch());
       } else {
         checkIsRememberedLogin();
       }
