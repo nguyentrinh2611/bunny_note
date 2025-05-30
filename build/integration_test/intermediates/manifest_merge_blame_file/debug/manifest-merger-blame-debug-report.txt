@@ -7,10 +7,6 @@
 7<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 8    package="dev.flutter.integration_test" >
 9
-10    <uses-sdk
-11        android:minSdkVersion="21"
-11-->/Users/dev/flutter/packages/integration_test/android/src/main/AndroidManifest.xml
-12        android:targetSdkVersion="21" />
-12-->/Users/dev/flutter/packages/integration_test/android/src/main/AndroidManifest.xml
-13
-14</manifest>
+10    <uses-sdk android:minSdkVersion="21" />
+11
+12</manifest>

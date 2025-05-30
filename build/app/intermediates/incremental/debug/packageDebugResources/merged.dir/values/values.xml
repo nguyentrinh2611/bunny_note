@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">247422761988-55obe73bkm34478sm6d5ril8ip2f1813.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://scdev-9d023-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">247422761988</string>
+    <string name="google_api_key" translatable="false">AIzaSyA0HGtT776sBdGnrfmdfp60i4WuGPKNJVM</string>
+    <string name="google_app_id" translatable="false">1:247422761988:android:0e147cb42a5626e7f6c951</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0HGtT776sBdGnrfmdfp60i4WuGPKNJVM</string>
+    <string name="google_storage_bucket" translatable="false">scdev-9d023.appspot.com</string>
+    <string name="project_id" translatable="false">scdev-9d023</string>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

@@ -2,10 +2,8 @@
 manifest
 ADDED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml:1:1-9:12
 INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml:1:1-9:12
-INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml:1:1-9:12
 	package
 		ADDED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml:2:3-49
-		INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
 		INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml:1:11-69
@@ -25,13 +23,7 @@ uses-sdk
 INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
 INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
-INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
-INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
 	android:targetSdkVersion
 		INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
-		ADDED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
-		INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
-		ADDED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
 		INJECTED from /Users/dev/.pub-cache/hosted/pub.dev/firebase_database-10.5.7/android/src/main/AndroidManifest.xml
