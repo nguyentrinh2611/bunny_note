@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,44 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAXE4tub6v2XPM7ZAQr28UOCa1e9FMkrms',
-    appId: '1:247422761988:web:5acf11f8a2059457f6c951',
-    messagingSenderId: '247422761988',
-    projectId: 'scdev-9d023',
-    authDomain: 'scdev-9d023.firebaseapp.com',
-    databaseURL: 'https://scdev-9d023-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'scdev-9d023.appspot.com',
-    measurementId: 'G-2ZHXKCQLWG',
+    apiKey: 'AIzaSyBi55qY2pH03kMUu_HtuaRi-GCI_cvgCyQ',
+    appId: '1:217370988969:web:a88a83d5fb417f8e8c74b8',
+    messagingSenderId: '217370988969',
+    projectId: 'bunny-note',
+    authDomain: 'bunny-note.firebaseapp.com',
+    storageBucket: 'bunny-note.firebasestorage.app',
+    measurementId: 'G-R1M6WT9739',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA0HGtT776sBdGnrfmdfp60i4WuGPKNJVM',
-    appId: '1:247422761988:android:0e147cb42a5626e7f6c951',
-    messagingSenderId: '247422761988',
-    projectId: 'scdev-9d023',
-    databaseURL: 'https://scdev-9d023-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'scdev-9d023.appspot.com',
+    apiKey: 'AIzaSyAl2RtkHNhayW3gauy6IX6Ogt8Lm7VssN4',
+    appId: '1:217370988969:android:dc7551922f3d290b8c74b8',
+    messagingSenderId: '217370988969',
+    projectId: 'bunny-note',
+    storageBucket: 'bunny-note.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDBiDFG2Zu3kmYEJPZDBGWWJXjFgRe2MNk',
-    appId: '1:247422761988:ios:c023ed5fd077578bf6c951',
-    messagingSenderId: '247422761988',
-    projectId: 'scdev-9d023',
-    databaseURL: 'https://scdev-9d023-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'scdev-9d023.appspot.com',
-    iosClientId: '247422761988-8uhi5j5mc7j4d1bc4lba7mmdh6k44sps.apps.googleusercontent.com',
+    apiKey: 'AIzaSyBcLgQhDhrTWFo9QpWnTnoYBeWTmRp3LaQ',
+    appId: '1:217370988969:ios:6d5d28543225bb968c74b8',
+    messagingSenderId: '217370988969',
+    projectId: 'bunny-note',
+    storageBucket: 'bunny-note.firebasestorage.app',
     iosBundleId: 'com.vuongdan.sc.dev',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDBiDFG2Zu3kmYEJPZDBGWWJXjFgRe2MNk',
-    appId: '1:247422761988:ios:60bc64d946c7db4ff6c951',
-    messagingSenderId: '247422761988',
-    projectId: 'scdev-9d023',
-    databaseURL: 'https://scdev-9d023-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'scdev-9d023.appspot.com',
-    iosClientId: '247422761988-asu9hsk40p4gstrv98dragndkdol9pd1.apps.googleusercontent.com',
+    apiKey: 'AIzaSyBcLgQhDhrTWFo9QpWnTnoYBeWTmRp3LaQ',
+    appId: '1:217370988969:ios:7d8ddb4312f8ef828c74b8',
+    messagingSenderId: '217370988969',
+    projectId: 'bunny-note',
+    storageBucket: 'bunny-note.firebasestorage.app',
     iosBundleId: 'com.example.sc',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyBi55qY2pH03kMUu_HtuaRi-GCI_cvgCyQ',
+    appId: '1:217370988969:web:da5a30eecf1160b58c74b8',
+    messagingSenderId: '217370988969',
+    projectId: 'bunny-note',
+    authDomain: 'bunny-note.firebaseapp.com',
+    storageBucket: 'bunny-note.firebasestorage.app',
+    measurementId: 'G-8MDWB8GECM',
+  );
+
 }

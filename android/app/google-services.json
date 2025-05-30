@@ -1,44 +1,26 @@
 {
   "project_info": {
-    "project_number": "247422761988",
-    "firebase_url": "https://scdev-9d023-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "scdev-9d023",
-    "storage_bucket": "scdev-9d023.appspot.com"
+    "project_number": "217370988969",
+    "project_id": "bunny-note",
+    "storage_bucket": "bunny-note.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:247422761988:android:0e147cb42a5626e7f6c951",
+        "mobilesdk_app_id": "1:217370988969:android:dc7551922f3d290b8c74b8",
         "android_client_info": {
           "package_name": "com.example.s_c"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "247422761988-55obe73bkm34478sm6d5ril8ip2f1813.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA0HGtT776sBdGnrfmdfp60i4WuGPKNJVM"
+          "current_key": "AIzaSyAl2RtkHNhayW3gauy6IX6Ogt8Lm7VssN4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "247422761988-55obe73bkm34478sm6d5ril8ip2f1813.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "247422761988-8uhi5j5mc7j4d1bc4lba7mmdh6k44sps.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.vuongdan.sc.dev"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

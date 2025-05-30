@@ -15,7 +15,7 @@ void main() async {
     () async {
       WidgetsFlutterBinding.ensureInitialized();
       final FirebaseApp app = await Firebase.initializeApp(
-          options: DefaultFirebaseOptions.currentPlatform, name: "S_C");
+          options: DefaultFirebaseOptions.currentPlatform, name: "bunny-note");
 
       await di.init(
         firebaseApp: app,
