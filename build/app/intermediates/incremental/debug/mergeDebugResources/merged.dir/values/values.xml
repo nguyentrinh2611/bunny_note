@@ -421,22 +421,20 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy">Copy</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
-    <string name="default_web_client_id" translatable="false">247422761988-55obe73bkm34478sm6d5ril8ip2f1813.apps.googleusercontent.com</string>
     <string name="expand_button_title">Advanced</string>
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="firebase_database_url" translatable="false">https://scdev-9d023-default-rtdb.asia-southeast1.firebasedatabase.app</string>
-    <string name="gcm_defaultSenderId" translatable="false">247422761988</string>
-    <string name="google_api_key" translatable="false">AIzaSyA0HGtT776sBdGnrfmdfp60i4WuGPKNJVM</string>
-    <string name="google_app_id" translatable="false">1:247422761988:android:0e147cb42a5626e7f6c951</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0HGtT776sBdGnrfmdfp60i4WuGPKNJVM</string>
-    <string name="google_storage_bucket" translatable="false">scdev-9d023.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">217370988969</string>
+    <string name="google_api_key" translatable="false">AIzaSyAl2RtkHNhayW3gauy6IX6Ogt8Lm7VssN4</string>
+    <string name="google_app_id" translatable="false">1:217370988969:android:dc7551922f3d290b8c74b8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAl2RtkHNhayW3gauy6IX6Ogt8Lm7VssN4</string>
+    <string name="google_storage_bucket" translatable="false">bunny-note.firebasestorage.app</string>
     <string name="not_set">Not set</string>
     <string name="preference_copied">
         \"<ns1:g example="Version 1.1" id="summary">%1$s</ns1:g>\" copied to clipboard.
     </string>
-    <string name="project_id" translatable="false">scdev-9d023</string>
+    <string name="project_id" translatable="false">bunny-note</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list"><ns1:g id="current_items">%1$s</ns1:g>, <ns1:g id="added_items">%2$s</ns1:g></string>

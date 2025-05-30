@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/dev/Downloads/s_c/android/app/src/debug/AndroidManifest.xml:7:5-66
-15-->/Users/dev/Downloads/s_c/android/app/src/debug/AndroidManifest.xml:7:22-64
+15-->/Users/dev/Downloads/bunny_note/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/dev/Downloads/bunny_note/android/app/src/debug/AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 16-->[com.google.firebase:firebase-auth:22.3.1] /Users/dev/.gradle/caches/transforms-3/472da88ab57c6691712be136474b6e78/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
 16-->[com.google.firebase:firebase-auth:22.3.1] /Users/dev/.gradle/caches/transforms-3/472da88ab57c6691712be136474b6e78/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:22-76
@@ -75,31 +75,31 @@
 63            android:value="2" />
 64
 65        <service
-65-->[:firebase_auth] /Users/dev/Downloads/s_c/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+65-->[:firebase_auth] /Users/dev/Downloads/bunny_note/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
 66            android:name="com.google.firebase.components.ComponentDiscoveryService"
-66-->[:firebase_auth] /Users/dev/Downloads/s_c/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+66-->[:firebase_auth] /Users/dev/Downloads/bunny_note/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
 67            android:directBootAware="true"
 67-->[com.google.firebase:firebase-common:20.4.3] /Users/dev/.gradle/caches/transforms-3/e46ea7e9abcae633c37a7dd74d9031b4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:32:13-43
 68            android:exported="false" >
 68-->[com.google.firebase:firebase-auth:22.3.1] /Users/dev/.gradle/caches/transforms-3/472da88ab57c6691712be136474b6e78/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:68:13-37
 69            <meta-data
-69-->[:firebase_auth] /Users/dev/Downloads/s_c/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+69-->[:firebase_auth] /Users/dev/Downloads/bunny_note/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-70-->[:firebase_auth] /Users/dev/Downloads/s_c/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+70-->[:firebase_auth] /Users/dev/Downloads/bunny_note/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
 71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[:firebase_auth] /Users/dev/Downloads/s_c/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+71-->[:firebase_auth] /Users/dev/Downloads/bunny_note/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 72            <meta-data
-72-->[:firebase_database] /Users/dev/Downloads/s_c/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+72-->[:firebase_database] /Users/dev/Downloads/bunny_note/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-73-->[:firebase_database] /Users/dev/Downloads/s_c/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-127
+73-->[:firebase_database] /Users/dev/Downloads/bunny_note/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-127
 74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[:firebase_database] /Users/dev/Downloads/s_c/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+74-->[:firebase_database] /Users/dev/Downloads/bunny_note/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 75            <meta-data
-75-->[:firebase_core] /Users/dev/Downloads/s_c/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+75-->[:firebase_core] /Users/dev/Downloads/bunny_note/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-76-->[:firebase_core] /Users/dev/Downloads/s_c/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+76-->[:firebase_core] /Users/dev/Downloads/bunny_note/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
 77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[:firebase_core] /Users/dev/Downloads/s_c/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+77-->[:firebase_core] /Users/dev/Downloads/bunny_note/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 78            <meta-data
 78-->[com.google.firebase:firebase-auth:22.3.1] /Users/dev/.gradle/caches/transforms-3/472da88ab57c6691712be136474b6e78/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:69:13-71:85
 79                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -133,43 +133,43 @@
 93        </service>
 94
 95        <provider
-95-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
+95-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
 96            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-96-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
+96-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
 97            android:authorities="com.example.s_c.flutter.image_provider"
-97-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+97-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
 98            android:exported="false"
-98-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+98-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 99            android:grantUriPermissions="true" >
-99-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+99-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
 100            <meta-data
-100-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+100-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
 101                android:name="android.support.FILE_PROVIDER_PATHS"
-101-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+101-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
 102                android:resource="@xml/flutter_image_picker_file_paths" />
-102-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+102-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
 103        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
 104        <service
-104-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
+104-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
 105            android:name="com.google.android.gms.metadata.ModuleDependencies"
-105-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
+105-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
 106            android:enabled="false"
-106-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+106-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
 107            android:exported="false" >
-107-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+107-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
 108            <intent-filter>
-108-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+108-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
 109                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-109-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
-109-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
+109-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
+109-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
 110            </intent-filter>
 111
 112            <meta-data
-112-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
+112-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
 113                android:name="photopicker_activity:0:required"
-113-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
+113-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
 114                android:value="" />
-114-->[:image_picker_android] /Users/dev/Downloads/s_c/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
+114-->[:image_picker_android] /Users/dev/Downloads/bunny_note/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
 115        </service>
 116
 117        <activity

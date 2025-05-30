@@ -1,0 +1,1 @@
+ /Users/dev/Downloads/bunny_note/.dart_tool/flutter_build/36c9535fed66e2997b83279b4262d03a/native_assets.yaml: 
