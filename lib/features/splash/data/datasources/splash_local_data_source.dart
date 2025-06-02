@@ -20,7 +20,7 @@ class SplashLocalDataSourceImpl extends SplashLocalDataSource {
 
   @override
   Future<bool>? getCachedFirstLaunchFlag() {
-    final jsonString = sharedPreferences.getString(CACHED_FIRST_LAUNCH_FLAG);
+    final jsonString = sharedPreferences.getBool(CACHED_FIRST_LAUNCH_FLAG);
     if (jsonString != null) {
       return Future.value(false);
     } else {
